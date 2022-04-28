@@ -13,3 +13,4 @@ with jQuery. This is just my performance task for my school's physical education
 ## Attributions
 
 - [Hiking Favicon](https://www.flaticon.com/free-icon/hiking_1142743#)
+- [SVG Background in the intro](https://heropatterns.com/)
