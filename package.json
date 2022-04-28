@@ -4,9 +4,13 @@
   "description": "A website made for my performance task in physical education class.",
   "main": "index.html",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "parcel index.html",
+    "build": "parcel build index.html"
   },
   "keywords": [],
   "author": "DragunWF",
-  "license": "All Rights Reserved"
+  "license": "All Rights Reserved",
+  "dependencies": {
+    "parcel-bundler": "^1.12.5"
+  }
 }
