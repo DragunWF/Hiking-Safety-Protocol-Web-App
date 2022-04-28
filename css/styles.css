@@ -67,20 +67,25 @@ header {
   width: 100%;
   margin-top: 0;
   text-align: center;
-  font-size: 2.5rem;
 }
 
-header h1 {
+.header-text h1 {
   margin-bottom: 1rem;
+  font-size: 5rem;
 }
 
-header h2 {
+.header-text h2 {
   margin-top: 1rem;
+  font-size: 4rem;
 }
 
 @media screen and (max-width: 480px) {
-  header {
-    font-size: 2.2rem;
+  .header-text h1 {
+    font-size: 4rem;
+  }
+
+  .header-text h2 {
+    font-size: 3rem;
   }
 
   header h1,
