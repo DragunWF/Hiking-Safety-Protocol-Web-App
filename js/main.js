@@ -18,7 +18,7 @@ $(document).ready(() => {
     for (let container of containers) container.hide();
     setTimeout(() => {
       slideDownContainers(0);
-    }, 500);
+    }, 750);
   }
 
   onStartUp();
