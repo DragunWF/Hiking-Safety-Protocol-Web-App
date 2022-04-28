@@ -72,6 +72,7 @@ header h2 {
 .container {
   font-size: 1.8rem;
   text-align: center;
+  width: 100%;
 }
 
 .container h2 {
@@ -93,6 +94,17 @@ header h2 {
 
   .container p {
     width: 90%;
+    text-align: left;
+  }
+}
+
+@media screen and (max-width: 780px) {
+  .container h2 {
+    width: 88%;
+  }
+
+  .container p {
+    width: 88%;
     text-align: left;
   }
 }
