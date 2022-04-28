@@ -1,6 +1,12 @@
 :root {
   --color-text: #fff;
   --color-text-shadow: #111;
+  --color-selection: #0f52ba;
+}
+
+::selection {
+  background: var(--color-selection);
+  color: var(--color-text);
 }
 
 html {
@@ -40,6 +46,19 @@ body {
 
 .text-animation:hover {
   transform: scale(1.008);
+}
+
+.text-link {
+  color: var(--color-text);
+  text-decoration: none;
+  font-weight: 800;
+  border-bottom: 0.15em solid var(--color-text);
+  transition: all 0.25s;
+}
+
+.text-link:hover {
+  color: var(--color-selection);
+  border-bottom: 0.15em solid var(--color-selection);
 }
 
 /* Header */
@@ -126,6 +145,18 @@ header h2 {
   }
 }
 
+/* Footer */
+footer {
+  width: 100%;
+  font-size: 1rem;
+}
+
+@media screen and (max-width: 480px) {
+  footer {
+    font-size: 0.7rem;
+  }
+}
+
 /* Background Colors */
 #first {
   background: #23395d;
@@ -145,4 +176,8 @@ header h2 {
 
 #fifth {
   background: #152238;
+}
+
+#sixth {
+  background: #101a2b;
 }
