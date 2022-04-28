@@ -1,0 +1,12 @@
+{
+  "name": "hiking-infographics.netlify.app",
+  "version": "1.0.0",
+  "description": "A website made for my performance task in physical education class.",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "DragunWF",
+  "license": "All Rights Reserved"
+}
