@@ -1,5 +1,0 @@
-Favicon from:
-https://www.flaticon.com/free-icon/hiking_1142743#
-
-css/normalize.css from:
-github.com/necolas/normalize.css
