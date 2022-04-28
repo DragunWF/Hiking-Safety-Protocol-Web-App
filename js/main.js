@@ -5,6 +5,7 @@ $(document).ready(() => {
     $("#third"),
     $("#fourth"),
     $("#fifth"),
+    $("#sixth"),
   ];
 
   function slideDownContainers(index) {
@@ -18,7 +19,7 @@ $(document).ready(() => {
     for (let container of containers) container.hide();
     setTimeout(() => {
       slideDownContainers(0);
-    }, 750);
+    }, 1500);
   }
 
   onStartUp();
