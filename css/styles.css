@@ -123,6 +123,7 @@ header {
 }
 
 .container p {
+  line-height: 1.5;
   margin-top: 1rem;
   width: 55%;
 }
